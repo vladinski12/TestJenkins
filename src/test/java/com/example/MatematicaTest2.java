@@ -5,20 +5,13 @@ import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
 
-public class MatematicaTests {
+public class MatematicaTest2 {
 
     Matematica matematica;
 
     @Before
     public void setUp() {
         matematica = new Matematica();
-    }
-
-    @Test
-    public void testSuma() {
-        int rezultat = matematica.suma(3, 12);
-        int rezultatAsteptat = 15;
-        assertEquals(rezultatAsteptat, rezultat);
     }
 
     @Test
